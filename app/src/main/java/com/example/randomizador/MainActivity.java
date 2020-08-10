@@ -30,17 +30,22 @@ public class MainActivity extends Activity {
         btnPlay.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                int num = Integer.parseInt(txtNum1.getText().toString());
-                if (num == 0) {
-                    Toast.makeText(getApplicationContext(), "Digite um número", Toast.LENGTH_SHORT).show();
-                } else {
+                String txtNum = txtNum1.getText().toString();
+                if(txtNum.isEmpty() || txtNum.equals("")){
+                    Toast.makeText(
+                            getApplicationContext(),
+                            "Preencha o Campo",
+                            Toast.LENGTH_SHORT
+                    ).show();
+                }else{
+                    int num = Integer.parseInt(txtNum1.getText().toString());
                     Random random = new Random();
-                    String res = txtRes.getText().toString();
                     int numRes = random.nextInt(num + 1);
                     txtRes.setText("Número randomizado: " + numRes);
                 }
             }
         });
+
 
     }
 }
