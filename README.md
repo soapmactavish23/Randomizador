@@ -1,5 +1,5 @@
 <h1 align="center">
-   <img src="https://firebasestorage.googleapis.com/v0/b/apostas-e1af2.appspot.com/o/java%2Fseries%2Fmuito.png?alt=media&token=ac78fefc-4fac-4985-8aad-cb05d518f023" width="200">
+   <img src="https://firebasestorage.googleapis.com/v0/b/apostas-e1af2.appspot.com/o/java%2FRandomizador.png?alt=media&token=ff2d097a-4ecb-4137-896f-409a955ab7d3" width="200">
 </h1>
 
 <h4 align="center"> 
